@@ -16,7 +16,7 @@ This repository serves as an **index of open-source medical image reconstruction
 | Model      | Paper                                                                                                        | Venue         | Paper                                             | Code                                                        |
 | ---------- | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------- | ----------------------------------------------------------- |
 | **I³Net**  | *I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis*                                 | IEEE TMI 2024 | [Paper](https://doi.org/10.1109/TMI.2024.3394033) | [✅ Open-Source Code](https://github.com/eeeric-code/I3Net)  |
-| **DP-NSL** | *Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution* | ECCV 2026     | Coming soon                                       | [✅ Open-Source Code](https://github.com/eeeric-code/DP-NSL) |
+| **DP-NSL** | *Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution* | ECCV 2026     | [paper]                                    | [✅ Open-Source Code](https://github.com/eeeric-code/DP-NSL) |
 
 ## Project Repositories
 
