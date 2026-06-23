@@ -1,44 +1,41 @@
-# DeepMed Lab: Medical Image Reconstruction
+# Medical Image Reconstruction
 
-[![Open Source](https://img.shields.io/badge/Code-Open%20Source-brightgreen)](#open-source-projects)
-[![IEEE TMI](https://img.shields.io/badge/IEEE%20TMI-2024-blue)](https://doi.org/10.1109/TMI.2024.3394033)
+This repository serves as an **index of open-source medical image reconstruction projects developed by DeepMed Lab**.
 
 > [!IMPORTANT]
-> **This repository is an index of our medical image reconstruction projects.**  
-> The implementation of each paper is released in a **separate public GitHub repository**.  
-> Please use the **Open-source code** links below to access the complete source code, pretrained models, and usage instructions.
+> The implementation of each paper is maintained in a **separate public GitHub repository**.
+> Click the **Code** link in the table below to access the source code, pretrained checkpoints, data preparation instructions, and usage documentation available for each project.
 
-## Open-source Projects
+## Open-Source Projects
 
-### I³Net — IEEE TMI 2024
+| Model      | Paper                                                                                                        | Venue         | Paper                                             | Code                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------- | ----------------------------------------------------------- |
+| **I³Net**  | *I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis*                                 | IEEE TMI 2024 | [Paper](https://doi.org/10.1109/TMI.2024.3394033) | [✅Code](https://github.com/eeeric-code/I3Net)  |
+| **DP-NSL** | *Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution* | ECCV 2026     | Coming soon                                       | [✅Code](https://github.com/eeeric-code/DP-NSL) |
+
+## Project Repositories
+
+### I³Net
 
 **I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis**
 
-- **Source code:** [github.com/eeeric-code/I3Net](https://github.com/eeeric-code/I3Net)
-- **Paper:** [IEEE Transactions on Medical Imaging](https://doi.org/10.1109/TMI.2024.3394033), [arxiv](http://arxiv.org/abs/2405.02857)
-- **Task:** Medical slice interpolation and synthesis
+* **Venue:** IEEE Transactions on Medical Imaging, 2024
+* **Paper:** https://doi.org/10.1109/TMI.2024.3394033
+* **Code:** https://github.com/eeeric-code/I3Net
 
-<p align="left">
-  <a href="https://github.com/eeeric-code/I3Net">
-    <img src="https://img.shields.io/badge/View%20Source%20Code-I3Net-2ea44f?style=for-the-badge&logo=github" alt="I3Net source code">
-  </a>
-</p>
+### DP-NSL
 
-```bash
-git clone https://github.com/eeeric-code/I3Net.git
-```
+**Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution**
 
-## Model Zoo
+* **Venue:** ECCV 2026
+* **Paper:** Coming soon
+* **Code:** https://github.com/eeeric-code/DP-NSL
 
-| Model | Venue | Paper | Open-source Code | Status |
-|:--|:--:|:--|:--|:--:|
-| **I³Net** | IEEE TMI 2024 | I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis | **[GitHub Repository](https://github.com/eeeric-code/I3Net)** | ✅ **Released** |
-
-> The implementation code is maintained in the linked paper-specific repository rather than duplicated in this index repository.
+The DP-NSL repository currently provides the project source code, training and evaluation scripts, a debug dataset, and an official checkpoint. Please refer to the individual repository for setup and usage instructions.
 
 ## Citation
 
-If you find I³Net useful, please cite:
+### I³Net
 
 ```bibtex
 @article{Song_2024,
@@ -52,3 +49,11 @@ If you find I³Net useful, please cite:
   doi       = {10.1109/TMI.2024.3394033}
 }
 ```
+
+### DP-NSL
+
+```bibtex
+Coming soon.
+```
+
+::: 
