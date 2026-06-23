@@ -6,12 +6,17 @@ This repository serves as an **index of open-source medical image reconstruction
 > The implementation of each paper is maintained in a **separate public GitHub repository**.
 > Click the **Code** link in the table below to access the source code, pretrained checkpoints, data preparation instructions, and usage documentation available for each project.
 
+## News
+
+* **[2026]** 🎉 DP-NSL code has been released. Check out the repository for implementation details, training scripts, and pretrained checkpoints.
+* **[2024]** 🎉 I³Net has been published in *IEEE Transactions on Medical Imaging* and its code is publicly available.
+
 ## Open-Source Projects
 
 | Model      | Paper                                                                                                        | Venue         | Paper                                             | Code                                                        |
 | ---------- | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------- | ----------------------------------------------------------- |
-| **I³Net**  | *I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis*                                 | IEEE TMI 2024 | [Paper](https://doi.org/10.1109/TMI.2024.3394033) | [✅Code](https://github.com/eeeric-code/I3Net)  |
-| **DP-NSL** | *Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution* | ECCV 2026     | Coming soon                                       | [✅Code](https://github.com/eeeric-code/DP-NSL) |
+| **I³Net**  | *I³Net: Inter-Intra-slice Interpolation Network for Medical Slice Synthesis*                                 | IEEE TMI 2024 | [Paper](https://doi.org/10.1109/TMI.2024.3394033) | [✅ Open-Source Code](https://github.com/eeeric-code/I3Net)  |
+| **DP-NSL** | *Dual-Prior Guided Null-Space Learning with Mixture-of-Splines for Arbitrary Medical Slice Super-Resolution* | ECCV 2026     | Coming soon                                       | [✅ Open-Source Code](https://github.com/eeeric-code/DP-NSL) |
 
 ## Project Repositories
 
@@ -56,4 +61,4 @@ The DP-NSL repository currently provides the project source code, training and e
 Coming soon.
 ```
 
-::: 
+:::
